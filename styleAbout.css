@@ -5,7 +5,7 @@
 }
 
 html { 
-  background: url(Contback.jpg) no-repeat center center fixed; 
+  background: url(Contback.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -120,7 +120,7 @@ header{
 }*/
 
 .about-section{
-    background: url(myLogo.png) no-repeat left;
+    background: url(myLogo.PNG) no-repeat left;
     background-size: 45%;
 	background-position:absolute;
 	left:10%;
