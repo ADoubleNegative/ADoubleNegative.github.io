@@ -1,0 +1,357 @@
+@font-face{
+  src: url(fonts/Cremona.ttf);
+  font-family: voga;
+
+}
+
+
+
+
+html { 
+  background: url(Contback.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+	background-size:cover;
+	background-position:center;
+	font-family:voga;
+}
+
+/*.backgound{
+	background-repeat:none;
+	background-position:center center;
+	-webkit-background-size: cover;
+	background-size:cover;
+	height: 100vh;
+}*/
+
+
+header{
+	padding:15px 60px;
+}
+
+.title{
+	position:absolute;
+	
+	top:-2%;
+	left: -9%;
+	width:50%;
+	color:black;
+	font-family: voga;
+	font-size: 30px;
+	color:white;
+	
+	
+	
+}
+
+.drop-menu{
+	display: none;
+}
+
+.arrow right{
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+
+.menu{
+	
+	width:42%;
+	float: right;
+	list-style:none;
+	position:absolute;
+	top:0.5%;
+	left: 55%;
+	color:transparent;
+	border-box:white;
+	
+}
+
+.menu li{
+	width:100px;
+	height:50px;
+	line-height:50px;
+	text-align: center;
+	color:white;
+	font-size: 13px;
+	float: right;
+	display:inline-block;
+	border:1px solid white;
+	margin-right:10px;
+
+	}
+
+.menu li:hover{
+	background:#ebb47c;
+	border-radius:0.8rem;
+	border-color:#ebb47c;
+}
+
+.menu li:hover a{
+	color: white;
+}
+	
+
+
+
+.menu li a{
+	text-decoration: none;
+	font-family:voga;
+	color:white;
+	font-size:20px;
+	
+}
+
+.contact-title{
+	color:white;
+	margin-top:180px;
+	transition:all 4s ease-in-out;
+	font-size:50px;
+	
+}
+
+.contact-title h1{
+	color:#ebb47c;
+	font-size:40px;
+	-webkit-text-stroke: -3px white;
+	line-height:10px;
+	font-weight:bold;
+}
+
+.contact-title h2{
+	font-size:16px;
+	
+}
+
+/*.form{
+	margin-top:50px;
+	transition:all 4s ease-in-out;
+}*/
+
+.form-control{
+	width:600px;
+	border:none;
+	outline:none;
+	border-bottom:1px solid white;
+	color:black;
+	font-size: 18px;
+	margin-bottom:16px;
+	font-family:voga;
+	
+}
+
+input{
+	height:45px;
+	color:black;
+	font-family:voga;
+}
+
+form .submit{
+	background: #ebb47c;
+	border-color:transparent;
+	font-family:voga;
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top:20px;
+}
+
+form .submit:hover{
+	background-color: #e4994e;
+	cursor:pointer;
+}
+
+@media (max-width:1300px){
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: -8%;
+	}
+}
+
+@media (max-width:1090px){
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: -5%;
+	}
+}
+
+
+@media (max-width:950px){
+	.og-menu{display:none;}
+	.drop-menu {
+		display: inline-block;
+		width:50px;
+		height:80%;
+		text-decoration:none;
+		font-size: 17px;
+		padding: 10px 35px;
+		color:black;
+		margin-top:3%;
+		font-family:voga;
+		left:80%;
+		top:1%;
+		position:absolute;
+	}
+	.dmenu{
+		list-style:none;
+		text-align:left;
+		width:100%;
+		margin:0;
+		padding:0;
+		box-shadow:0 1px 1px rgba(0,0,0,.2);
+		
+	}
+
+	.dmenu li{
+		text-decoration:none;
+	border: 1px solid white;
+	
+	/*Box Width*/
+	width:60px;
+	margin-bottom:3px;
+	font-size: 17px;
+	padding: 10px 20px;
+	color:white;
+	display: inline-block;
+	margin-top:5%;
+	font-family:voga;
+	text-align:center;
+
+		
+	}
+	.dmenu li a{
+	text-decoration: none;
+	font-family:voga;
+	color:white;
+	text-align:left;
+	}
+	.dmenu li:hover{
+		border-color:#ebb47c;
+		background:#ebb47c;
+		color:#262626;
+	}
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: -2%;
+	}
+	
+}
+
+@media (max-width:800px){
+	.drop-menu {
+		left:77%;
+		top:1%;
+		position:absolute;
+	}
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: 1%;
+	}
+}
+
+@media (max-width:670px){
+	.drop-menu {
+		left:75%;
+		top:1%;
+		position:absolute;
+	}
+	.title{
+	position:absolute;
+	top:-2%;
+	left: -8%;
+	}
+}
+
+@media (max-width:620px){
+	.drop-menu {
+		left:73%;
+		top:1%;
+		position:absolute;
+	}
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: -10%;
+	}
+}
+
+@media (max-width: 550px){
+	 .drop-menu {
+		left:73%;
+		top:1%;
+		position:absolute;
+	}
+	.title{
+	position:absolute;
+	
+	top:-2%;
+	left: 13%;
+	}
+}
+@media (max-width: 1025px){
+	.title{
+	position:absolute;
+	
+	top:-1%;
+	left: -1%;
+}
+	
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
