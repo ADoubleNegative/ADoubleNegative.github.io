@@ -23,7 +23,6 @@ font-face{
 /*@font-face{
   src: url(fonts/BADABB__.ttf);
   font-family: bada;
-
 }*/
 html{
   font-family:voga;
@@ -56,7 +55,7 @@ header{
 .title{
 	position:absolute;
 	
-	top:1%;
+	top:62%;
 	left: 1%;
 	width:50%;
 	color:black;
@@ -129,7 +128,7 @@ header{
 }
 .blog-post{
 	position:relative;
-	top:12%;
+	top:130%;
 	left:-8%;
     
 }
@@ -166,6 +165,7 @@ header{
 	letter-spacing:normal;
 	word-spacing:4.3px;
 	color:black;
+	font-weight:800px;
 }
 
 
