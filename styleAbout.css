@@ -146,6 +146,7 @@ header{
     font-size: 30px;
     font-weight: 900;
 	color:white;
+	transform:translate(-2rem,0);
 	
 }
 
@@ -155,6 +156,7 @@ header{
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
+    transform:translate(-2rem,0);
 }
 
 
