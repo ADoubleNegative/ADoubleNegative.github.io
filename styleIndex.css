@@ -451,12 +451,12 @@ header{
 	}
 	.dmenu{
 		position:absolute;
-		left:-49%;
+		left:-35%;
 	}
 	
 	
 	.banner-text {
-		transform:translate(-11.4rem,14rem);
+		transform:translate(-10.5rem,17rem);
 	}
 	
 }
@@ -503,6 +503,8 @@ and (max-device-height:641px){
 		transform:translate(-11rem,14rem);
 	}
 }
+
+
 
 
 
