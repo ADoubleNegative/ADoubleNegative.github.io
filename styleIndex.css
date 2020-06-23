@@ -565,13 +565,45 @@ and (max-device-height:641px){
   and (-webkit-min-device-pixel-ratio: 3) { 
 	.dmenu{
 		position:absolute;
-		left:-85%;
+		/*og -85%*/
+		left:0%;
+		
 	}
+	/*new*/
+	.dmenu li{
+		width:100px;
+		height:35px;
+		padding-top:20px;
+	}
+	.dmenu li a{
+		font-size:23px;
+		
+	}
+	.title{
+		font-size:39px;
+		line-height:79px;
+		position:absolute;
+		top:-9%;
+	}
+	/**/
+	/*updated*/
 	.banner-text{
 		position:absolute;
-		top:0%;
-		left:70%;
+		top:20%;
+		left:90%;
 		
+	}
+	/*new*/
+	.banner-text img{
+		width:150%;
+		transform:translate(-1.5rem,0);
+	}
+	.banner-text p{
+		font-size:19px;
+		transform:translate(.5rem,0);
+	}
+	.banner-text a{
+		transform:translate(.5rem,0);
 	}
 }
 
