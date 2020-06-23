@@ -18,7 +18,6 @@
 /*@font-face{
   src: url(fonts/BADABB__.ttf);
   font-family: bada;
-
 }*/
 html{
   font-family:voga;
@@ -224,7 +223,6 @@ header{
         transform:translate(-5rem,-3rem);
 	width:80%;
     }
-
   }*/
 
   .blog-post_img{
@@ -528,19 +526,14 @@ header{
 	/*
 	.blog-post_date span{
 	transform: translate(0,8rem);
-
 	}
-
 	.blog-post_title{
 	transform: translate(0,8rem);
   
-
 	}
-
 	.blog-post_text{
 	top:50%;
 	transform: translate(0,1rem);
-
 	}
 }*/
 
@@ -554,29 +547,3 @@ header{
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
-
-
-
-
