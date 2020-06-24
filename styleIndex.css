@@ -627,7 +627,7 @@ and (max-device-height:641px){
 	.dmenu{
 		position:absolute;
 		/*og -85%*/
-		left:0%;
+		left:-57%;
 		
 	}
 	/*new*/
@@ -635,14 +635,16 @@ and (max-device-height:641px){
 		width:100px;
 		height:35px;
 		padding-top:20px;
+		
 	}
 	.dmenu li a{
 		font-size:23px;
+		text-align:center;
 		
 	}
 	.title{
-		font-size:39px;
-		line-height:79px;
+		font-size:33px;
+		line-height:84px;
 		position:absolute;
 		top:-9%;
 	}
@@ -651,7 +653,7 @@ and (max-device-height:641px){
 	.banner-text{
 		position:absolute;
 		top:20%;
-		left:98%;
+		left:88%;
 		
 	}
 	/*new*/
