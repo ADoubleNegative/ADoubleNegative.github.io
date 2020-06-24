@@ -614,7 +614,7 @@ and (max-device-height:641px){
     and (device-width: 414px) 
     and (device-height: 896px) 
     and (-webkit-device-pixel-ratio: 2) {
-	.dmenu{
+	/*.dmenu{
 		position:absolute;
 		left:-90.5%;
 	}
@@ -623,9 +623,50 @@ and (max-device-height:641px){
 		top:6%;
 		left:80%;
 		
+	}*/
+	.dmenu{
+		position:absolute;
+		/*og -85%*/
+		left:0%;
+		
 	}
-
-		}
+	/*new*/
+	.dmenu li{
+		width:100px;
+		height:35px;
+		padding-top:20px;
+	}
+	.dmenu li a{
+		font-size:23px;
+		
+	}
+	.title{
+		font-size:39px;
+		line-height:79px;
+		position:absolute;
+		top:-9%;
+	}
+	/**/
+	/*updated*/
+	.banner-text{
+		position:absolute;
+		top:20%;
+		left:98%;
+		
+	}
+	/*new*/
+	.banner-text img{
+		width:150%;
+		transform:translate(-1.5rem,0);
+	}
+	.banner-text p{
+		font-size:19px;
+		transform:translate(.5rem,0);
+	}
+	.banner-text a{
+		transform:translate(.5rem,0);
+	}
+}
 		
 	@media only screen 
   and (min-device-width: 768px) 
