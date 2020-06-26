@@ -525,18 +525,15 @@ and (max-device-height:641px){
 	}
 }
 
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media (max-width: 375px), (max-height: 667px) { 
 	.dmenu{
 		position:absolute;
-		left:-108%;
+		left:-86%;
 	}
 	.banner-text{
 		position:absolute;
 		top:-6%;
-		left:82%;
+		left:86%;
 	}
 	.dmenu li a{
 		text-align:center;
@@ -544,10 +541,10 @@ and (max-device-height:641px){
 }
 
 
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+/*@media (min-width: 414px),(max-height: 736px)  { 
+  .title{
+	  font-size:20px;
+  }
 	.dmenu{
 		position:absolute;
 		left:-95%;
@@ -557,6 +554,18 @@ and (max-device-height:641px){
 		top:-2%;
 		
 	}
+}*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) { 
+.dmenu{
+	transform:translate(-7rem,0);
+}
+
+.banner-text{
+	transform:translate(-15rem,8rem);
+}
+
 }
 
 
@@ -572,7 +581,7 @@ and (max-device-height:641px){
 	}
 	/*new*/
 	.dmenu li{
-		width:100px;
+		width:90px;
 		height:35px;
 		padding-top:20px;
 	}
@@ -581,8 +590,8 @@ and (max-device-height:641px){
 		
 	}
 	.title{
-		font-size:39px;
-		line-height:79px;
+		font-size:30px;
+		line-height:84px;
 		position:absolute;
 		top:-9%;
 	}
@@ -611,65 +620,26 @@ and (max-device-height:641px){
 
 
 
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 2) {
-	/*.dmenu{
-		position:absolute;
-		left:-90.5%;
-	}
-	.banner-text{
-		position:absolute;
-		top:6%;
-		left:80%;
-		
-	}*/
-	.dmenu{
-		position:absolute;
-		/*og -85%*/
-		left:-69%;
-		
-	}
-	/*new*/
-	.dmenu li{
-		width:84px;
-		height:19.7px;
-		padding-top:10px;
-		
-	}
-	.dmenu li a{
-		font-size:23px;
-		text-align:center;
-		
-	}
-	.title{
-		font-size:26px;
-		line-height:51px;
-		position:absolute;
-		top:-7%;
-	}
-	/**/
-	/*updated*/
-	.banner-text{
-		position:absolute;
-		top:4%;
-		left:86%;
-		
-	}
-	/*new*/
-	.banner-text img{
-		width:120%;
-		transform:translate(-.4rem,0);
-	}
-	.banner-text p{
-		font-size:19px;
-		transform:translate(.5rem,0);
-	}
-	.banner-text a{
-		transform:translate(.5rem,0);
-	}
-}
+@media (min-height: 896px) {
+	  .dmenu li{
+		  width:40px;
+	  }
+	  .dmenu{
+		  position:absolute;
+		  left:30%;
+	  }
+	  .banner-text{
+		  position:absolute;
+		  top:18%;
+		 transform:translate(-11rem,15rem);
+	  }
+	  .title{
+		  line-height:48px;
+		  position:absolute;
+		  top:-6%;
+	  }
+	  
+  }
 	
 		
 	@media only screen 
