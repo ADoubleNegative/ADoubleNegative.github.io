@@ -331,7 +331,7 @@ form .submit:hover{
   and (-webkit-min-device-pixel-ratio: 2) {
 	.title{
 		font-size:26px;
-		line-height:49px;
+		line-height:53px;
 		width:20%;
 		position:absolute;
 		left:1%;

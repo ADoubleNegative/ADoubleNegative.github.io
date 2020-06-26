@@ -1059,7 +1059,7 @@ header{
   and (-webkit-min-device-pixel-ratio: 2) {
 	.blog-post{
 		position:absolute;
-		top:28%;
+		top:31%;
 	}
 	.title{
 		font-size:17px;
@@ -1090,6 +1090,7 @@ header{
 	.dmenu li{
 		width:140px;
 	}
+	
 }
 
 
@@ -1097,7 +1098,8 @@ header{
 	
 	.blog-post{
 		position:absolute;
-		top:40%;
+		top:47%;
+		transform:translate(0,7.4rem);
 	}
 	.dmenu li{
 		width:140px;
@@ -1126,7 +1128,7 @@ header{
 	}
 	.blog-post{
 		position:absolute;
-		top:22%;
+		top:19%;
 	}
 }
 
@@ -1139,7 +1141,7 @@ header{
     and (-webkit-device-pixel-ratio: 2) {
 	.blog-post{
 		position:absolute;
-		top:20%;
+		top:18%;
 	}
 	.dmenu{
 		position:absolute;
