@@ -626,11 +626,12 @@ and (max-device-width : 736px) {
 	  }
 	  .dmenu{
 		  position:absolute;
-		  left:-35%;
+		  left:30%;
 	  }
 	  .banner-text{
 		  position:absolute;
-		  top:10%;
+		  top:18%;
+		 transform:translate(-11rem,15rem);
 	  }
 	  .title{
 		  line-height:48px;

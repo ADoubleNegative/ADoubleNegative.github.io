@@ -136,6 +136,7 @@ header{
   display: flex;
   align-items: center;
   border-radius: .8rem;
+  margin-bottom:70px;
 }
 .blog-post_img{
   min-width: 35rem;
