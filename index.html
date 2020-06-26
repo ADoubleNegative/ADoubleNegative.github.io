@@ -1,61 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>A Double Negative</title>
-		<link rel="stylesheet" href="slicknav.css">
-		<link rel="stylesheet" href="styleIndex.css">
-	</head>
-	
-	
-	<body>
-	
-		<div class="banner-area">
-			<header>
-				<div class="title">
-					<h2>A Double Negative</h2>
-				</div>
-				
-				
-			
-					<div class="og-menu">
-						<ul class="menu">
-							<li><a href="about.html">About</a></li>
-							<li><a href="posts.html">Posts</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-					
-					<div class="drop-menu">
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
 
-						<ul class="dmenu">
-							<li><a href="about.html">About</a></li>
-							<li><a href="posts.html">Posts</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-					
-					
-				
-			
-			</header>
-			
-			
-			<div class="banner-text">
-				
-				<img src="myLogo.PNG" alt="logo">
-			
-				<p>Educating youth on topics the media paints negatively.</p>
-				<a href="about.html">Learn More</a>
-				
-			</div>
-		</div>
-		
-	
-	</body>
-	
-	
-	
-	
+<title>SlickNav Demo - Responsive Mobile Nav Plugin for jQuery</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../dist/slicknav.css">
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+</head>
+<body>
+<p><b>Resize browser to view mobile menu</b></p>
+
+Original Menu hidden on mobile
+<ul id="menu">
+    <li>Parent 1
+        <ul>
+            <li><a href="#">item 3</a></li>
+            <li>Parent 3
+                <ul>
+                    <li><a href="#">item 8</a></li>
+                    <li><a href="#">item 9</a></li>
+                    <li><a href="#">item 10</a></li>
+                </ul>
+            </li>
+            <li><a href="#">item 4</a></li>
+        </ul>
+    </li>
+    <li><a href="#">item 1</a></li>
+    <li>non-link item</li>
+    <li>Parent 2
+        <ul>
+            <li><a href="#">item 5</a></li>
+            <li><a href="#">item 6</a></li>
+            <li><a href="#">item 7</a></li>
+        </ul>
+    </li>
+</ul>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="../dist/jquery.slicknav.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#menu').slicknav();
+});
+</script>
+</body>
 </html>
