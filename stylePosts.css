@@ -561,6 +561,7 @@ header{
 		left:21%;
 		top:15%;
 		margin-bottom:70px;
+		
 	}
 	.title{
 		font-size:34px;
@@ -593,7 +594,7 @@ header{
 	.blog-post {
 		position:absolute;
 		left:21%;
-		height:85%;
+		height:90%;
 		margin-bottom:70px;
 	}
 	  

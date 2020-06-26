@@ -346,8 +346,8 @@ and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
 	.container{
 		position:absolute;
-		top:130%;
-		height:260%;
+		top:170%;
+		height:315%;
 	}
 	}
 	
