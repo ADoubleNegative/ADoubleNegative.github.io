@@ -528,7 +528,7 @@ and (max-device-height:641px){
   and (-webkit-min-device-pixel-ratio: 2) { 
 	.dmenu{
 		position:absolute;
-		left:-87%;
+		left:-108%;
 	}
 	.banner-text{
 		position:absolute;
@@ -537,9 +537,6 @@ and (max-device-height:641px){
 	}
 	.dmenu li a{
 		text-align:center;
-	}
-	.banner-text{
-		transform:translate(-12rem,15rem);
 	}
 }
 

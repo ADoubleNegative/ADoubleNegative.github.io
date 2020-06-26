@@ -300,8 +300,8 @@ and (max-device-width : 667px) { /* STYLES GO HERE */
 	}
 	  .container{
 		position:absolute;
-		top:185%;
-		left:50%;
+		top:198%;
+		left:51%;
 		height:390%;
 		width:95%;
 		
@@ -336,8 +336,7 @@ and (max-device-width : 736px) {
 	.container{
 		position:absolute;
 		left:50%;
-		top:150%;
-		transform:translate(-12.3rem,-60rem);
+		top:170%;
 	}
 
 }
