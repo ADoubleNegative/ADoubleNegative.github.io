@@ -306,7 +306,6 @@ header{
 		position:absolute;
 	}
 }
-
 @media (max-width:670px){
 	.drop-menu {
 		left:75%;
@@ -314,7 +313,6 @@ header{
 		position:absolute;
 	}
 }
-
 @media (max-width:620px){
 	.drop-menu {
 		left:73%;
@@ -336,7 +334,6 @@ header{
 		position:absolute;
 	}
 }
-
 @media (max-width:376px){
 	.title{
 		position:absolute;
@@ -531,7 +528,7 @@ and (max-device-height:641px){
   and (-webkit-min-device-pixel-ratio: 2) { 
 	.dmenu{
 		position:absolute;
-		left:-108%;
+		left:-87%;
 	}
 	.banner-text{
 		position:absolute;
@@ -540,6 +537,9 @@ and (max-device-height:641px){
 	}
 	.dmenu li a{
 		text-align:center;
+	}
+	.banner-text{
+		transform:translate(-12rem,15rem);
 	}
 }
 
@@ -762,6 +762,3 @@ and (max-device-height:641px){
 	  }
 	  
 }
-
-
-

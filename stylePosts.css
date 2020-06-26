@@ -537,7 +537,7 @@ header{
 		position:absolute;
 		left:23%;
 		top:15%;
-		height:110%;
+		height:12%;
 		transform:translate(.5rem,0);
 		margin-bottom:70px;
 	}
@@ -555,12 +555,13 @@ header{
 	}
 }
 
-@media (max-height: 737px) { 
+@media (min-height: 736px) { 
 .blog-post {
 		position:absolute;
 		left:21%;
 		top:15%;
 		margin-bottom:70px;
+		height:20%
 		
 	}
 	.title{
@@ -594,7 +595,7 @@ header{
 	.blog-post {
 		position:absolute;
 		left:21%;
-		height:90%;
+		height:98%;
 		margin-bottom:70px;
 	}
 	  
